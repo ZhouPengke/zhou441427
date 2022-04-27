@@ -1,0 +1,112 @@
+.menu{
+  text-align:center
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;  
+
+}
+li{
+  border:2px solid #936304;
+  display:inline-block;
+  margin:0.5rem;
+    
+}
+a{
+  text-decoration:none;
+  background-color:#936304;
+  color:#40f33a;
+  padding:0.5rem;
+  display:block;
+
+}
+a:hover{
+  background-color:#078044;
+  color:#ffffff;
+}
+.LOGO {
+  -webkit-box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 10px 0px 10px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+body{
+  background-color: #f4fa4e;
+}
+p {
+  color: #006300;
+  line-height: 2em;
+  text-align: left;
+  width: 100%;
+  }
+  .table1{
+    border: 1px solid black;
+    float: right;
+  }
+  
+  th,td {
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  }
+h1 {
+  color:#094f18;
+  font-size: 4em;
+  padding-top: 100px;
+    text-align: center;
+  width: 100%;
+  
+  }
+  h2{
+    color:#49eeac;
+    background-color: #936304;
+    border: medium solid rgb(4, 4, 4)
+  }
+  h3{
+    color:#936304;
+    font-size: 2em;
+  }
+  .p1{
+    width: 20%;
+    height: 15%;
+    float: right;
+  }
+  
+  .box{
+width: 380px;
+margin: 30px auto;
+font-family: 'Microsoft YaHei';
+font-size: 14px;
+  }
+ .search input{
+width: 260px;
+border: 1px solid #e2e2e2;
+height: 30px;
+float: left;
+background-image: url(images/search.jpg);
+background-repeat: no-repeat;
+background-size: 25px;
+background-position:5px center;
+padding:0 0 0 40px;
+}
+.search{
+width: 78px;
+height: 32px;
+float: right;
+background: black;
+color: white;
+text-align: center;
+line-height: 20px;
+cursor: pointer;
+}
+
+.mySlides {display:none;}
+
+
+.btn-left{
+  margin-top: -10px;
+  z-index: 0;
+}
