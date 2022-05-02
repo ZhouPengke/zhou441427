@@ -46,6 +46,10 @@ var slideIndex = 1;
             alert("Telephone can't be blank");  
             return false;  
           }
+          else if(isNaN(Telephone)){
+            alert("Telephone must be a number")
+            return false;
+          }
           if(password.length<6){  
             alert("password must be at least 6 characters long.");  
             return false;  
